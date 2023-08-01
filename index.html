@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Syscad</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!--====================================================================================================== 
+    HEADER 
+    =======================================================================================================-->
+
+    <div id="div_syscadprincipal">SYSCAD</div>
+    <header class="header">
+        <nav class="nav">
+          <button
+            class="btn-menu"
+            aria-label="Abrir Menu"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+          <span class="hamburger"></span>
+          </button>
+          <ul class="menu" id="menu" role="menu">
+            <div id="div_syscad"><p id="p_syscad">SYSCAD</p></div>
+            <div class="div_menu" id="div_menu1">
+                <img src="img/fulano-junior1.jpg" id="img_lateral">
+                <div id="div_menu2">
+                    <span id="span_menu"> Fulano Junior</span>
+                    <span id="span_menu1"><span class="circle"></span> Online </span>
+                </div>
+            </div>
+            <div id="div_menu3">
+                <span class="span_menu2">MENU</span>
+             </div>
+            <li><a href="">Home</a></li>
+            <li><a href="#em-andamento">Usuarios</a></li>
+            <li><a href="#em-andamento">Configurações</a></li>
+          </ul>
+        </nav>
+        <div id="div_usuario">
+            <img id="img_usuario" src="img/fulano-junior1.jpg"> 
+            <a href="" id="a_usuario">Fulano Junior</a>
+        </div>
+      </header>
+
+    <!--====================================================================================================== 
+    CONTANT
+    =======================================================================================================-->
+
+    <div class="content">
+
+        <div class="container1">
+    
+        <!--------------------- Descricao ---------------------->
+            <div id="div_caixa">
+                <p class="pcaixa1"><span class="span_descricao">Usuários </span> Gerenciamento de usuários do sistema</p>       
+                <p class="pcaixa2">
+                <span class="span_descricao2" href=""><img class="img5"src="img/home.png"> Home</span>
+                <span class="span_descricao3" href="">&#10148;  Usuários</span>
+                </p>     
+            </div> 
+    
+        <div class="container2">
+    
+        <!------------------------ Tabela ----------------------->
+
+            <div class="ladoesquerdo">
+                
+                <div class="div_tabela">
+                    <table>
+                        <caption>Lista de Usuários</caption>
+                            <thead>
+                            <tr >
+                                <th>Foto:</th>
+                                <th>Nome:</th>
+                                <th>E-mail:</th>
+                                <th>Admin:</th>
+                                <th>Criado em:</th>
+                                <th>Ações:</th>
+                            </tr>  
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td data-label="Foto:"><img src="img/img3.jpg" alt="user photo"></td>
+                                <td data-label="Nome:">Fulano</td>
+                                <td data-label="E-mail:">fulano@syscad.com.br</td>
+                                <td data-label="Admin:">Sim</td>
+                                <td data-label="Criado em:">02/04/2022</td>
+                                <td data-label="Ações:"><a class="editbt" type="button" value="Editar" href="">Editar</a>
+                                    <a class="delbt" value="Excluir" href="">Excluir</a>
+                                </td>
+                            </tr> 
+                            <tr style="background: white;">
+                                <td data-label="Foto:"><img src="img/img2.jpg" alt="user photo"></td>
+                                <td data-label="Nome:">Fulano</td>
+                                <td data-label="E-mail:">fulano@syscad.com.br</td>
+                                <td data-label="Admin:">Não</td>
+                                <td data-label="Criado em:">02/04/2022</td>
+                                <td data-label="Ações:"><a class="editbt" type="button" value="Editar" href="">Editar</a>
+                                    <a class="delbt" value="Excluir" href="">Excluir</a>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td data-label="Foto:"><img src="img/img1.jpeg" alt="user photo"></td>
+                                <td data-label="Nome:">Fulano</td>
+                                <td data-label="E-mail:">fulano@syscad.com.br</td>
+                                <td data-label="Admin:">Não</td>
+                                <td data-label="Criado em:">02/04/2022</td>
+                                <td data-label="Ações:"><a class="editbt" type="button" value="Editar" href="">Editar</a>
+                                    <a class="delbt" value="Excluir" href="">Excluir</a>
+                                </td>
+                            </tr> 
+                            <tr style="background: white;">
+                                <td data-label="Foto:"><img src="img/fulano-junior2.jpg" alt="user photo"></td>
+                                <td data-label="Nome:">Fulano</td>
+                                <td data-label="E-mail:">fulano@syscad.com.br</td>
+                                <td data-label="Admin:">Não</td>
+                                <td data-label="Criado em:">02/04/2022</td>
+                                <td data-label="Ações:"><a class="editbt" type="button" value="Editar" href="">Editar</a>
+                                    <a class="delbt" value="Excluir" href="">Excluir</a>
+                                </td>
+                            </tr> 
+                            </tbody>
+                    </table>
+                </div>     
+               
+            </div>
+    
+        <!--------------------- caixas -------------------->
+    
+            <div class="ladodireito">
+                <div class="div_caixaspesquenas">
+                    <div class="cards" id="card1">
+                        <h1>4</h1>
+                        <h3>Novos Usuários</h3>
+                    </div>
+                    <div class="cards" id="card2">
+                        <h1>1</h1>
+                        <h3>Administradores</h3>
+                    </div>
+                </div>
+
+    
+        <!------------------ Cadastro --------------------->
+
+                <form id="f" name="form" method="post" enctype="multipart/form-data">
+                    <h3>Novo Usuário</h3>
+                    <hr class="hr_cadastro">
+                    <fieldset>
+                        <label for="nome" class="label_cadastro">Nome: 
+                            <input 
+                            id="nome" 
+                            name="nome" 
+                            type="text" 
+                            placeholder="Insira o nome de usuário"
+                            value="" 
+                            required />
+                        </label>
+                        <label for="genero-masc" class="label_cadastro">Gênero: </label>
+                        <input 
+                            class="inline" 
+                            id="genero-masc" 
+                            name="genero" 
+                            type="radio" 
+                            value="masculino">Masculino<br>
+                        <input 
+                            class="inline" 
+                            id="genero-fem" 
+                            name="genero" 
+                            type="radio"
+                            value="feminino">Feminino
+                        <label for="datanasc" class="label_cadastro">Nascimento: 
+                            <input 
+                            id="datanasc" 
+                            pattern="dd-mm-yyyy" 
+                            placeholder="dd-mm-yyyy" 
+                            name="datanasc" 
+                            type="date"
+                            value=""
+                            required />
+                        </label>
+                        <label for="pais" class="label_cadastro" id="label-pais"> País:
+                            <select id="pais" name="pais" required>
+                                <option value="">Selecione um país</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Bolívia">Bolívia</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Colômbia">Colômbia</option>
+                                <option value="Equador">Equador</option>
+                                <option value="Guiana">Guiana</option>
+                                <option value="França">França (Guiana Francesa)</option>
+                                <option value="Paraguai">Paraguai</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Suriname">Suriname</option>
+                                <option value="Uruguai">Uruguai</option>
+                                <option value="Venezuela">Venezuela</option>
+                            </select>
+                        </label>
+                        <label for="email" class="label_cadastro">Email:
+                            <input 
+                            id="email" 
+                            name="email" 
+                            type="text" 
+                            placeholder="Digite o e-mail" 
+                            value=""
+                            required>
+                        </label>
+                        <label for="senha" class="label_cadastro">Senha:
+                            <input
+                            id="senha"
+                            name="senha"
+                            type="password"
+                            placeholder="Crie uma senha"
+                            value=""
+                            required>
+                        </label>
+                        <label for="foto" class="label_cadastro" id="label-foto">Foto:
+                            <input 
+                            id="foto" 
+                            name="foto" 
+                            type="file" 
+                            >
+                     
+                        </label>
+                        <input 
+                        id="admin" 
+                        type="checkbox" 
+                        name="admin" 
+                        > Administrador
+                        <hr class="hr_cadastro">
+                        <input class="salvar" type="submit">
+                    </fieldset>
+                </form>
+
+            </div>
+    
+        </div>
+            
+        </div>
+    
+    </div>
+
+    <!--====================================================================================================== 
+    FOOTER
+    =======================================================================================================-->
+
+    <div class="footer">
+        <h4 id="projeto">Desenvolvido por Raí Lopes &copy; 2023</h4>
+        <h4 id="h4_footer">SYSCAD</h4>     
+    </div>
+
+</body>
+</html>
