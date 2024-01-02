@@ -239,7 +239,7 @@ HEADER
 }
 
 .span_menu2 {
-  color: var(--color-eight);
+  color: var(--white);
   display: flex;
   float: left;
   padding-left: 1rem;
